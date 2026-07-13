@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>תפריט שבועי</title>
+
+<style>
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    background:#eef2f5;
+    font-family:Arial,Helvetica,sans-serif;
+    direction:rtl;
+    color:#222;
+}
+
+.container{
+    max-width:900px;
+    margin:30px auto;
+    padding:0 15px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:25px;
+    color:#2E7D32;
+}
+
+.day{
+    background:#fff;
+    border-radius:14px;
+    margin-bottom:20px;
+    overflow:hidden;
+    box-shadow:0 3px 12px rgba(0,0,0,.08);
+}
+
+.day-title{
+    background:#2E7D32;
+    color:#fff;
+    padding:14px 18px;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.meals{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:16px;
+    padding:16px;
+}
+
+.meal{
+    background:#fafafa;
+    border:1px solid #e3e3e3;
+    border-radius:10px;
+    padding:14px;
+}
+
+.meal h3{
+    margin:0 0 10px;
+    color:#1B5E20;
+}
+
+.note{
+    background:#FFF8D8;
+    border-right:4px solid #FFC107;
+    padding:8px 10px;
+    border-radius:6px;
+    margin-bottom:12px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+ul{
+    margin:0;
+    padding-right:20px;
+}
+
+li{
+    margin:7px 0;
+    line-height:1.5;
+}
+
+@media(max-width:700px){
+    .meals{
+        grid-template-columns:1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🍽️ תפריט שבועי</h1>
+
+<div class="day">
+<div class="day-title">יום ראשון</div>
+
+<div class="meals">
+
+<div class="meal">
+<h3>🍽️ ארוחת צהריים</h3>
+<div class="note">(משיכה 40 מנות) | כמות כפולה בגלל ההחלפות</div>
+<ul>
+<li>סלופי ג׳ו</li>
+<li>עוף בתנור</li>
+<li>תפוחי אדמה אפויים בתנור</li>
+<li>פתיתים</li>
+<li>ירקנית</li>
+<li>אנטי פסטי</li>
+<li>סלטים</li>
+</ul>
+</div>
+
+<div class="meal">
+<h3>🌙 ארוחת ערב</h3>
+<div class="note">משיכת ערב 80 מנות</div>
+<ul>
+<li>תפוח אדמה מדורה</li>
+<li>בטטה מדורה</li>
+<li>ביצים קשות</li>
+<li>פרנץ טוסט</li>
+<li>פסטה</li>
+<li>אנטי פסטי</li>
+<li>סלטים</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div class="day">
+<div class="day-title">יום שני</div>
+
+<div class="meals">
+
+<div class="meal">
+<h3>🍽️ ארוחת צהריים</h3>
+<div class="note">כמות כפולה - יום החלפה</div>
+<ul>
+<li>גולש חומוס</li>
+<li>עוף בתנור</li>
+<li>קוסקוס</li>
+<li>אורז לבן</li>
+<li>מרק ירקות לקוסקוס</li>
+<li>אנטי פסטי</li>
+<li>סלטים</li>
+</ul>
+</div>
+
+<div class="meal">
+<h3>🌙 ארוחת ערב</h3>
+<div class="note">משיכה 50 מנות</div>
+<ul>
+<li>שקשוקה</li>
+<li>פתיתים</li>
+<li>הום פרייז</li>
+<li>אנטי פסטי</li>
+<li>סלטים</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div class="day">
+<div class="day-title">יום שלישי</div>
+
+<div class="meals">
+
+<div class="meal">
+<h3>🍽️ ארוחת צהריים</h3>
+<ul>
+<li>שניצל א׳</li>
+<li>קבב</li>
+<li>צ׳יפס</li>
+<li>פסטה קונכיות</li>
+<li>אנטי פסטי</li>
+<li>סלטים</li>
+</ul>
+</div>
+
+<div class="meal">
+<h3>🌙 ארוחת ערב</h3>
+<div class="note">משיכה 50 מנות</div>
+<ul>
+<li>דגים אפויים</li>
+<li>אורז</li>
+<li>מקושקשת</li>
+<li>אנטי פסטי</li>
+<li>סלטים</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div class="day">
+<div class="day-title">יום רביעי</div>
+
+<div class="meals">
+
+<div class="meal">
+<h3>🍽️ ארוחת צהריים</h3>
+<ul>
+<li>בולונז</li>
+<li>חזה עוף פרוס בתנור</li>
+<li>ספגטי</li>
+<li>אורז</li>
+<li>ירקנית</li>
+<li>אנטי פסטי</li>
+<li>סלטים</li>
+</ul>
+</div>
+
+<div class="meal">
+<h3>🌙 ארוחת ערב</h3>
+<div class="note">משיכה 40 מנות</div>
+<ul>
+<li>פריקסה</li>
+<li>ביצים קשות</li>
+<li>תפוח אדמה אפויי</li>
+<li>טונה</li>
+<li>אנטי פסטי</li>
+<li>סלטים</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div class="day">
+<div class="day-title">יום חמישי</div>
+
+<div class="meals">
+
+<div class="meal">
+<h3>🍽️ ארוחת צהריים</h3>
+<ul>
+<li>מוקפץ</li>
+<li>קציצות ברוטב אדום</li>
+<li>אורז</li>
+<li>פתיתים</li>
+<li>ירקנית</li>
+<li>אנטי פסטי</li>
+<li>סלטים</li>
+</ul>
+</div>
+
+<div class="meal">
+<h3>🌙 ארוחת ערב</h3>
+<div class="note">משיכה 50ה מנות</div>
+<ul>
+<li>סביח (אפשר לשנות גם למשהו אחר אם זורם)</li>
+<li>ביצים קשות</li>
+<li>אנטי פסטי</li>
+<li>סלטים</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div class="day">
+<div class="day-title">יום שישי</div>
+
+<div class="meals">
+
+<div class="meal">
+<h3>🍽️ ארוחת צהריים</h3>
+<ul>
+<li>שניצל ב׳</li>
+<li>חזה עוף צלוי</li>
+<li>צ׳יפס</li>
+<li>אורז</li>
+<li>ירקנית</li>
+<li>סלטים</li>
+</ul>
+</div>
+
+<div class="meal">
+<h3>🌙 שישי ערב (קידוש)</h3>
+<ul>
+<li>דג מרוקאי</li>
+<li>צלי בקר</li>
+<li>עוף בתנור</li>
+<li>אורז</li>
+<li>קוסקוס</li>
+<li>תפוח אדמה אפויי</li>
+<li>מרק קוסקוס</li>
+<li>אנטי פסטי</li>
+<li>סלטים (מושקעים לקידוש)</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div class="day">
+<div class="day-title">יום שבת</div>
+
+<div class="meals">
+
+<div class="meal">
+<h3>🍽️ ארוחת צהריים</h3>
+<ul>
+<li>חמין (לא לשכוח גם צמחוני!!)</li>
+<li>ביצים קשות</li>
+<li>סלטים</li>
+</ul>
+</div>
+
+<div class="meal">
+<h3>🌙 ארוחת ערב (בתוך השבת)</h3>
+<ul>
+<li>ביצים קשות</li>
+<li>סלטים</li>
+<li>טונה קופסאות</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
